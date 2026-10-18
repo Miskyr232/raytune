@@ -1,0 +1,1877 @@
+desc: (none)
+cmd: ./build/view/view
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=5789930
+mem_heap_B=40
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=7459911
+mem_heap_B=197410
+mem_heap_extra_B=2726
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=8901263
+mem_heap_B=194810
+mem_heap_extra_B=2702
+mem_stacks_B=0
+heap_tree=detailed
+n13: 194810 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x4B799EF: ??? (in /usr/lib/libstdc++.so.6.0.36)
+  n1: 73728 0x402B1EE: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+   n1: 73728 0x402B2CC: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+    n0: 73728 0x40469BF: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+ n1: 21176 0x52E3F05: xcb_connect_to_fd (xcb_conn.c:368)
+  n1: 21176 0x52E478D: xcb_connect_to_display_with_auth_info (xcb_util.c:568)
+   n1: 21176 0x515E49A: _XConnectXCB (xcb_disp.c:78)
+    n1: 21176 0x514E039: XOpenDisplay (OpenDis.c:129)
+     n1: 21176 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+      n1: 21176 0x494FC20: UnknownInlinedFun (platform.c:99)
+       n1: 21176 0x494FC20: UnknownInlinedFun (platform.c:62)
+        n1: 21176 0x494FC20: UnknownInlinedFun (init.c:402)
+         n1: 21176 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+          n1: 21176 0x494FC20: InitWindow (rcore.c:681)
+           n1: 21176 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+            n0: 21176 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 18816 0x514E830: XOpenDisplay (OpenDis.c:439)
+  n1: 18816 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+   n1: 18816 0x494FC20: UnknownInlinedFun (platform.c:99)
+    n1: 18816 0x494FC20: UnknownInlinedFun (platform.c:62)
+     n1: 18816 0x494FC20: UnknownInlinedFun (init.c:402)
+      n1: 18816 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+       n1: 18816 0x494FC20: InitWindow (rcore.c:681)
+        n1: 18816 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+         n0: 18816 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 16384 0x514E36E: XOpenDisplay (OpenDis.c:241)
+  n1: 16384 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+   n1: 16384 0x494FC20: UnknownInlinedFun (platform.c:99)
+    n1: 16384 0x494FC20: UnknownInlinedFun (platform.c:62)
+     n1: 16384 0x494FC20: UnknownInlinedFun (init.c:402)
+      n1: 16384 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+       n1: 16384 0x494FC20: InitWindow (rcore.c:681)
+        n1: 16384 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+         n0: 16384 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n0: 15103 in 74 places, all below massif's threshold (1.00%)
+ n1: 11295 0x403206C: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+  n2: 11295 0x402D4E0: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+   n1: 7531 0x4033788: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+    n1: 7531 0x4027478: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+     n1: 7531 0x4032582: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+      n1: 7531 0x4027478: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+       n1: 7531 0x4032AE9: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+        n1: 7531 0x4F94393: ??? (in /usr/lib/libc.so.6)
+         n1: 7531 0x4027478: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+          n1: 7531 0x40275C8: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+           n1: 7531 0x4F93E62: ??? (in /usr/lib/libc.so.6)
+            n1: 7531 0x4F9444A: dlopen (in /usr/lib/libc.so.6)
+             n0: 7531 in 6 places, all below massif's threshold (1.00%)
+   n1: 3764 0x402887C: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+    n1: 3764 0x4027478: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+     n1: 3764 0x4028DBC: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+      n1: 3764 0x403300F: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+       n1: 3764 0x4027478: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+        n1: 3764 0x4032582: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+         n1: 3764 0x4027478: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+          n1: 3764 0x4032AE9: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+           n1: 3764 0x4F94393: ??? (in /usr/lib/libc.so.6)
+            n1: 3764 0x4027478: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+             n1: 3764 0x40275C8: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+              n1: 3764 0x4F93E62: ??? (in /usr/lib/libc.so.6)
+               n1: 3764 0x4F9444A: dlopen (in /usr/lib/libc.so.6)
+                n0: 3764 in 3 places, all below massif's threshold (1.00%)
+ n1: 8276 0x52E41E7: UnknownInlinedFun (xcb_conn.c:184)
+  n1: 8276 0x52E41E7: xcb_connect_to_fd (xcb_conn.c:386)
+   n1: 8276 0x52E478D: xcb_connect_to_display_with_auth_info (xcb_util.c:568)
+    n1: 8276 0x515E49A: _XConnectXCB (xcb_disp.c:78)
+     n1: 8276 0x514E039: XOpenDisplay (OpenDis.c:129)
+      n1: 8276 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+       n1: 8276 0x494FC20: UnknownInlinedFun (platform.c:99)
+        n1: 8276 0x494FC20: UnknownInlinedFun (platform.c:62)
+         n1: 8276 0x494FC20: UnknownInlinedFun (init.c:402)
+          n1: 8276 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+           n1: 8276 0x494FC20: InitWindow (rcore.c:681)
+            n1: 8276 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+             n0: 8276 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 8176 0x5150121: UnknownInlinedFun (Quarks.c:124)
+  n1: 8176 0x5150121: _Xpermalloc (Quarks.c:171)
+   n1: 8176 0x515158D: UnknownInlinedFun (Quarks.c:201)
+    n1: 8176 0x515158D: _XrmInternalStringToQuark (Quarks.c:284)
+     n1: 8176 0x51673A4: XrmInitialize (Xrm.c:333)
+      n1: 8176 0x4A06FDA: _glfwConnectX11.constprop.0 (x11_init.c:1290)
+       n1: 8176 0x494FC20: UnknownInlinedFun (platform.c:99)
+        n1: 8176 0x494FC20: UnknownInlinedFun (platform.c:62)
+         n1: 8176 0x494FC20: UnknownInlinedFun (init.c:402)
+          n1: 8176 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+           n1: 8176 0x494FC20: InitWindow (rcore.c:681)
+            n1: 8176 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+             n0: 8176 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 5616 0x402AA6E: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+  n1: 5616 0x40334D8: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+   n1: 5616 0x4027478: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+    n1: 5616 0x4032582: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+     n1: 5616 0x4027478: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+      n1: 5616 0x4032AE9: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+       n1: 5616 0x4F94393: ??? (in /usr/lib/libc.so.6)
+        n1: 5616 0x4027478: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+         n1: 5616 0x40275C8: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+          n1: 5616 0x4F93E62: ??? (in /usr/lib/libc.so.6)
+           n2: 5616 0x4F9444A: dlopen (in /usr/lib/libc.so.6)
+            n1: 2808 0x4A08823: UnknownInlinedFun (posix_module.c:39)
+             n1: 2808 0x4A08823: UnknownInlinedFun (x11_init.c:611)
+              n1: 2808 0x4A08823: _glfwInitX11 (x11_init.c:1534)
+               n1: 2808 0x494FC34: UnknownInlinedFun (init.c:405)
+                n1: 2808 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+                 n1: 2808 0x494FC34: InitWindow (rcore.c:681)
+                  n1: 2808 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+                   n0: 2808 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+            n1: 2808 0x4A088CB: UnknownInlinedFun (posix_module.c:39)
+             n1: 2808 0x4A088CB: UnknownInlinedFun (x11_init.c:635)
+              n1: 2808 0x4A088CB: _glfwInitX11 (x11_init.c:1534)
+               n1: 2808 0x494FC34: UnknownInlinedFun (init.c:405)
+                n1: 2808 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+                 n1: 2808 0x494FC34: InitWindow (rcore.c:681)
+                  n1: 2808 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+                   n0: 2808 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 5376 0x5B5080D: XRenderQueryFormats (Xrender.c:514)
+  n1: 5376 0x5B50F25: XRenderQueryVersion (Xrender.c:346)
+   n1: 5376 0x4A08E13: UnknownInlinedFun (x11_init.c:869)
+    n1: 5376 0x4A08E13: _glfwInitX11 (x11_init.c:1534)
+     n1: 5376 0x494FC34: UnknownInlinedFun (init.c:405)
+      n1: 5376 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+       n1: 5376 0x494FC34: InitWindow (rcore.c:681)
+        n1: 5376 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+         n0: 5376 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 4720 0x514E000: XOpenDisplay (OpenDis.c:115)
+  n1: 4720 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+   n1: 4720 0x494FC20: UnknownInlinedFun (platform.c:99)
+    n1: 4720 0x494FC20: UnknownInlinedFun (platform.c:62)
+     n1: 4720 0x494FC20: UnknownInlinedFun (init.c:402)
+      n1: 4720 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+       n1: 4720 0x494FC20: InitWindow (rcore.c:681)
+        n1: 4720 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+         n0: 4720 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 4096 0x5151423: UnknownInlinedFun (Quarks.c:209)
+  n1: 4096 0x5151423: _XrmInternalStringToQuark (Quarks.c:284)
+   n1: 4096 0x51673A4: XrmInitialize (Xrm.c:333)
+    n1: 4096 0x4A06FDA: _glfwConnectX11.constprop.0 (x11_init.c:1290)
+     n1: 4096 0x494FC20: UnknownInlinedFun (platform.c:99)
+      n1: 4096 0x494FC20: UnknownInlinedFun (platform.c:62)
+       n1: 4096 0x494FC20: UnknownInlinedFun (init.c:402)
+        n1: 4096 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+         n1: 4096 0x494FC20: InitWindow (rcore.c:681)
+          n1: 4096 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+           n0: 4096 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 2048 0x4F3A26A: ??? (in /usr/lib/libc.so.6)
+  n1: 2048 0x4F3A4F7: ??? (in /usr/lib/libc.so.6)
+   n1: 2048 0x4F32E49: ??? (in /usr/lib/libc.so.6)
+    n1: 2048 0x4F35942: setlocale (in /usr/lib/libc.so.6)
+     n1: 2048 0x4A06F64: _glfwConnectX11.constprop.0 (x11_init.c:1257)
+      n1: 2048 0x494FC20: UnknownInlinedFun (platform.c:99)
+       n1: 2048 0x494FC20: UnknownInlinedFun (platform.c:62)
+        n1: 2048 0x494FC20: UnknownInlinedFun (init.c:402)
+         n1: 2048 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+          n1: 2048 0x494FC20: InitWindow (rcore.c:681)
+           n1: 2048 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+            n0: 2048 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+#-----------
+snapshot=4
+#-----------
+time=9832436
+mem_heap_B=210283
+mem_heap_extra_B=7181
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=11461930
+mem_heap_B=235247
+mem_heap_extra_B=14369
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=12614345
+mem_heap_B=709911
+mem_heap_extra_B=14641
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=14519228
+mem_heap_B=728855
+mem_heap_extra_B=14641
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=15876179
+mem_heap_B=746519
+mem_heap_extra_B=14641
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=17695054
+mem_heap_B=773015
+mem_heap_extra_B=14641
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=19227046
+mem_heap_B=773015
+mem_heap_extra_B=14641
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=21351319
+mem_heap_B=812759
+mem_heap_extra_B=14641
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=22815278
+mem_heap_B=812743
+mem_heap_extra_B=14633
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=24218239
+mem_heap_B=864599
+mem_heap_extra_B=14641
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=25727095
+mem_heap_B=872375
+mem_heap_extra_B=14641
+mem_stacks_B=0
+heap_tree=detailed
+n9: 872375 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 456061 0x518C13D: parsestringfile (imLcPrs.c:736)
+  n1: 456061 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+   n1: 456061 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+    n1: 456061 0x51839B8: _XimOpenIM (imInt.c:229)
+     n1: 456061 0x518A423: _XimRegisterIMInstantiateCallback (imInsClbk.c:201)
+      n1: 456061 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+       n1: 456061 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+        n1: 456061 0x494FC34: UnknownInlinedFun (init.c:405)
+         n1: 456061 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+          n1: 456061 0x494FC34: InitWindow (rcore.c:681)
+           n1: 456061 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+            n0: 456061 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 139968 0x518C97B: UnknownInlinedFun (imLcPrs.c:674)
+  n1: 139968 0x518C97B: parsestringfile (imLcPrs.c:739)
+   n1: 139968 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 139968 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n1: 139968 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 139968 0x518A423: _XimRegisterIMInstantiateCallback (imInsClbk.c:201)
+       n1: 139968 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+        n1: 139968 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+         n1: 139968 0x494FC34: UnknownInlinedFun (init.c:405)
+          n1: 139968 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+           n1: 139968 0x494FC34: InitWindow (rcore.c:681)
+            n1: 139968 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+             n0: 139968 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n0: 111619 in 139 places, all below massif's threshold (1.00%)
+ n1: 73728 0x4B799EF: ??? (in /usr/lib/libstdc++.so.6.0.36)
+  n1: 73728 0x402B1EE: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+   n1: 73728 0x402B2CC: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+    n0: 73728 0x40469BF: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+ n1: 23328 0x518C68E: UnknownInlinedFun (imLcPrs.c:632)
+  n1: 23328 0x518C68E: parsestringfile (imLcPrs.c:739)
+   n1: 23328 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 23328 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n1: 23328 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 23328 0x518A423: _XimRegisterIMInstantiateCallback (imInsClbk.c:201)
+       n1: 23328 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+        n1: 23328 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+         n1: 23328 0x494FC34: UnknownInlinedFun (init.c:405)
+          n1: 23328 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+           n1: 23328 0x494FC34: InitWindow (rcore.c:681)
+            n1: 23328 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+             n0: 23328 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 21176 0x52E3F05: xcb_connect_to_fd (xcb_conn.c:368)
+  n1: 21176 0x52E478D: xcb_connect_to_display_with_auth_info (xcb_util.c:568)
+   n1: 21176 0x515E49A: _XConnectXCB (xcb_disp.c:78)
+    n1: 21176 0x514E039: XOpenDisplay (OpenDis.c:129)
+     n1: 21176 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+      n1: 21176 0x494FC20: UnknownInlinedFun (platform.c:99)
+       n1: 21176 0x494FC20: UnknownInlinedFun (platform.c:62)
+        n1: 21176 0x494FC20: UnknownInlinedFun (init.c:402)
+         n1: 21176 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+          n1: 21176 0x494FC20: InitWindow (rcore.c:681)
+           n1: 21176 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+            n0: 21176 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 18816 0x514E830: XOpenDisplay (OpenDis.c:439)
+  n1: 18816 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+   n1: 18816 0x494FC20: UnknownInlinedFun (platform.c:99)
+    n1: 18816 0x494FC20: UnknownInlinedFun (platform.c:62)
+     n1: 18816 0x494FC20: UnknownInlinedFun (init.c:402)
+      n1: 18816 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+       n1: 18816 0x494FC20: InitWindow (rcore.c:681)
+        n1: 18816 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+         n0: 18816 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 16384 0x514E36E: XOpenDisplay (OpenDis.c:241)
+  n1: 16384 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+   n1: 16384 0x494FC20: UnknownInlinedFun (platform.c:99)
+    n1: 16384 0x494FC20: UnknownInlinedFun (platform.c:62)
+     n1: 16384 0x494FC20: UnknownInlinedFun (init.c:402)
+      n1: 16384 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+       n1: 16384 0x494FC20: InitWindow (rcore.c:681)
+        n1: 16384 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+         n0: 16384 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 11295 0x403206C: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+  n1: 11295 0x402D4E0: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+   n0: 11295 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=15
+#-----------
+time=26854757
+mem_heap_B=872375
+mem_heap_extra_B=14641
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=28591147
+mem_heap_B=880151
+mem_heap_extra_B=14641
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=30074222
+mem_heap_B=950135
+mem_heap_extra_B=14641
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=31511943
+mem_heap_B=950135
+mem_heap_extra_B=14641
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=32895812
+mem_heap_B=961799
+mem_heap_extra_B=14641
+mem_stacks_B=0
+heap_tree=detailed
+n11: 961799 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 456061 0x518C13D: parsestringfile (imLcPrs.c:736)
+  n1: 456061 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+   n1: 456061 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+    n1: 456061 0x51839B8: _XimOpenIM (imInt.c:229)
+     n1: 456061 0x518A423: _XimRegisterIMInstantiateCallback (imInsClbk.c:201)
+      n1: 456061 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+       n1: 456061 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+        n1: 456061 0x494FC34: UnknownInlinedFun (init.c:405)
+         n1: 456061 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+          n1: 456061 0x494FC34: InitWindow (rcore.c:681)
+           n1: 456061 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+            n0: 456061 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 209952 0x518C97B: UnknownInlinedFun (imLcPrs.c:674)
+  n1: 209952 0x518C97B: parsestringfile (imLcPrs.c:739)
+   n1: 209952 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 209952 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n1: 209952 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 209952 0x518A423: _XimRegisterIMInstantiateCallback (imInsClbk.c:201)
+       n1: 209952 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+        n1: 209952 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+         n1: 209952 0x494FC34: UnknownInlinedFun (init.c:405)
+          n1: 209952 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+           n1: 209952 0x494FC34: InitWindow (rcore.c:681)
+            n1: 209952 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+             n0: 209952 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n0: 96067 in 137 places, all below massif's threshold (1.00%)
+ n1: 73728 0x4B799EF: ??? (in /usr/lib/libstdc++.so.6.0.36)
+  n1: 73728 0x402B1EE: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+   n1: 73728 0x402B2CC: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+    n0: 73728 0x40469BF: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+ n1: 34992 0x518C68E: UnknownInlinedFun (imLcPrs.c:632)
+  n1: 34992 0x518C68E: parsestringfile (imLcPrs.c:739)
+   n1: 34992 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 34992 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n1: 34992 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 34992 0x518A423: _XimRegisterIMInstantiateCallback (imInsClbk.c:201)
+       n1: 34992 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+        n1: 34992 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+         n1: 34992 0x494FC34: UnknownInlinedFun (init.c:405)
+          n1: 34992 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+           n1: 34992 0x494FC34: InitWindow (rcore.c:681)
+            n1: 34992 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+             n0: 34992 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 21176 0x52E3F05: xcb_connect_to_fd (xcb_conn.c:368)
+  n1: 21176 0x52E478D: xcb_connect_to_display_with_auth_info (xcb_util.c:568)
+   n1: 21176 0x515E49A: _XConnectXCB (xcb_disp.c:78)
+    n1: 21176 0x514E039: XOpenDisplay (OpenDis.c:129)
+     n1: 21176 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+      n1: 21176 0x494FC20: UnknownInlinedFun (platform.c:99)
+       n1: 21176 0x494FC20: UnknownInlinedFun (platform.c:62)
+        n1: 21176 0x494FC20: UnknownInlinedFun (init.c:402)
+         n1: 21176 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+          n1: 21176 0x494FC20: InitWindow (rcore.c:681)
+           n1: 21176 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+            n0: 21176 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 18816 0x514E830: XOpenDisplay (OpenDis.c:439)
+  n1: 18816 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+   n1: 18816 0x494FC20: UnknownInlinedFun (platform.c:99)
+    n1: 18816 0x494FC20: UnknownInlinedFun (platform.c:62)
+     n1: 18816 0x494FC20: UnknownInlinedFun (init.c:402)
+      n1: 18816 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+       n1: 18816 0x494FC20: InitWindow (rcore.c:681)
+        n1: 18816 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+         n0: 18816 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 16384 0x514E36E: XOpenDisplay (OpenDis.c:241)
+  n1: 16384 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+   n1: 16384 0x494FC20: UnknownInlinedFun (platform.c:99)
+    n1: 16384 0x494FC20: UnknownInlinedFun (platform.c:62)
+     n1: 16384 0x494FC20: UnknownInlinedFun (init.c:402)
+      n1: 16384 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+       n1: 16384 0x494FC20: InitWindow (rcore.c:681)
+        n1: 16384 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+         n0: 16384 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 11664 0x518C56A: UnknownInlinedFun (imLcPrs.c:579)
+  n1: 11664 0x518C56A: parsestringfile (imLcPrs.c:739)
+   n1: 11664 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 11664 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n1: 11664 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 11664 0x518A423: _XimRegisterIMInstantiateCallback (imInsClbk.c:201)
+       n1: 11664 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+        n1: 11664 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+         n1: 11664 0x494FC34: UnknownInlinedFun (init.c:405)
+          n1: 11664 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+           n1: 11664 0x494FC34: InitWindow (rcore.c:681)
+            n1: 11664 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+             n0: 11664 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 11664 0x518C7A7: UnknownInlinedFun (imLcPrs.c:648)
+  n1: 11664 0x518C7A7: parsestringfile (imLcPrs.c:739)
+   n1: 11664 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 11664 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n1: 11664 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 11664 0x518A423: _XimRegisterIMInstantiateCallback (imInsClbk.c:201)
+       n1: 11664 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+        n1: 11664 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+         n1: 11664 0x494FC34: UnknownInlinedFun (init.c:405)
+          n1: 11664 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+           n1: 11664 0x494FC34: InitWindow (rcore.c:681)
+            n1: 11664 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+             n0: 11664 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 11295 0x403206C: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+  n1: 11295 0x402D4E0: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+   n0: 11295 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=20
+#-----------
+time=34182661
+mem_heap_B=961799
+mem_heap_extra_B=14641
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=35800462
+mem_heap_B=961799
+mem_heap_extra_B=14641
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=37654488
+mem_heap_B=973463
+mem_heap_extra_B=14657
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=38950833
+mem_heap_B=973463
+mem_heap_extra_B=14657
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=41135850
+mem_heap_B=1078439
+mem_heap_extra_B=14657
+mem_stacks_B=0
+heap_tree=detailed
+n11: 1078439 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 456061 0x518C13D: parsestringfile (imLcPrs.c:736)
+  n1: 456061 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+   n1: 456061 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+    n1: 456061 0x51839B8: _XimOpenIM (imInt.c:229)
+     n1: 456061 0x518A423: _XimRegisterIMInstantiateCallback (imInsClbk.c:201)
+      n1: 456061 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+       n1: 456061 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+        n1: 456061 0x494FC34: UnknownInlinedFun (init.c:405)
+         n1: 456061 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+          n1: 456061 0x494FC34: InitWindow (rcore.c:681)
+           n1: 456061 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+            n0: 456061 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 314928 0x518C97B: UnknownInlinedFun (imLcPrs.c:674)
+  n1: 314928 0x518C97B: parsestringfile (imLcPrs.c:739)
+   n1: 314928 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 314928 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n1: 314928 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 314928 0x518A423: _XimRegisterIMInstantiateCallback (imInsClbk.c:201)
+       n1: 314928 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+        n1: 314928 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+         n1: 314928 0x494FC34: UnknownInlinedFun (init.c:405)
+          n1: 314928 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+           n1: 314928 0x494FC34: InitWindow (rcore.c:681)
+            n1: 314928 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+             n0: 314928 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n0: 96067 in 137 places, all below massif's threshold (1.00%)
+ n1: 73728 0x4B799EF: ??? (in /usr/lib/libstdc++.so.6.0.36)
+  n1: 73728 0x402B1EE: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+   n1: 73728 0x402B2CC: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+    n0: 73728 0x40469BF: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+ n1: 34992 0x518C68E: UnknownInlinedFun (imLcPrs.c:632)
+  n1: 34992 0x518C68E: parsestringfile (imLcPrs.c:739)
+   n1: 34992 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 34992 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n1: 34992 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 34992 0x518A423: _XimRegisterIMInstantiateCallback (imInsClbk.c:201)
+       n1: 34992 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+        n1: 34992 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+         n1: 34992 0x494FC34: UnknownInlinedFun (init.c:405)
+          n1: 34992 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+           n1: 34992 0x494FC34: InitWindow (rcore.c:681)
+            n1: 34992 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+             n0: 34992 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 21176 0x52E3F05: xcb_connect_to_fd (xcb_conn.c:368)
+  n1: 21176 0x52E478D: xcb_connect_to_display_with_auth_info (xcb_util.c:568)
+   n1: 21176 0x515E49A: _XConnectXCB (xcb_disp.c:78)
+    n1: 21176 0x514E039: XOpenDisplay (OpenDis.c:129)
+     n1: 21176 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+      n1: 21176 0x494FC20: UnknownInlinedFun (platform.c:99)
+       n1: 21176 0x494FC20: UnknownInlinedFun (platform.c:62)
+        n1: 21176 0x494FC20: UnknownInlinedFun (init.c:402)
+         n1: 21176 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+          n1: 21176 0x494FC20: InitWindow (rcore.c:681)
+           n1: 21176 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+            n0: 21176 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 18816 0x514E830: XOpenDisplay (OpenDis.c:439)
+  n1: 18816 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+   n1: 18816 0x494FC20: UnknownInlinedFun (platform.c:99)
+    n1: 18816 0x494FC20: UnknownInlinedFun (platform.c:62)
+     n1: 18816 0x494FC20: UnknownInlinedFun (init.c:402)
+      n1: 18816 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+       n1: 18816 0x494FC20: InitWindow (rcore.c:681)
+        n1: 18816 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+         n0: 18816 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 17496 0x518C56A: UnknownInlinedFun (imLcPrs.c:579)
+  n1: 17496 0x518C56A: parsestringfile (imLcPrs.c:739)
+   n1: 17496 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 17496 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n1: 17496 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 17496 0x518A423: _XimRegisterIMInstantiateCallback (imInsClbk.c:201)
+       n1: 17496 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+        n1: 17496 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+         n1: 17496 0x494FC34: UnknownInlinedFun (init.c:405)
+          n1: 17496 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+           n1: 17496 0x494FC34: InitWindow (rcore.c:681)
+            n1: 17496 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+             n0: 17496 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 17496 0x518C7A7: UnknownInlinedFun (imLcPrs.c:648)
+  n1: 17496 0x518C7A7: parsestringfile (imLcPrs.c:739)
+   n1: 17496 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 17496 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n1: 17496 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 17496 0x518A423: _XimRegisterIMInstantiateCallback (imInsClbk.c:201)
+       n1: 17496 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+        n1: 17496 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+         n1: 17496 0x494FC34: UnknownInlinedFun (init.c:405)
+          n1: 17496 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+           n1: 17496 0x494FC34: InitWindow (rcore.c:681)
+            n1: 17496 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+             n0: 17496 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 16384 0x514E36E: XOpenDisplay (OpenDis.c:241)
+  n1: 16384 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+   n1: 16384 0x494FC20: UnknownInlinedFun (platform.c:99)
+    n1: 16384 0x494FC20: UnknownInlinedFun (platform.c:62)
+     n1: 16384 0x494FC20: UnknownInlinedFun (init.c:402)
+      n1: 16384 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+       n1: 16384 0x494FC20: InitWindow (rcore.c:681)
+        n1: 16384 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+         n0: 16384 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 11295 0x403206C: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+  n1: 11295 0x402D4E0: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+   n0: 11295 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=42437551
+mem_heap_B=1078439
+mem_heap_extra_B=14657
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=44708623
+mem_heap_B=1078439
+mem_heap_extra_B=14657
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=45876949
+mem_heap_B=1095935
+mem_heap_extra_B=14665
+mem_stacks_B=0
+heap_tree=detailed
+n11: 1095935 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 456061 0x518C13D: parsestringfile (imLcPrs.c:736)
+  n1: 456061 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+   n1: 456061 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+    n1: 456061 0x51839B8: _XimOpenIM (imInt.c:229)
+     n1: 456061 0x518A423: _XimRegisterIMInstantiateCallback (imInsClbk.c:201)
+      n1: 456061 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+       n1: 456061 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+        n1: 456061 0x494FC34: UnknownInlinedFun (init.c:405)
+         n1: 456061 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+          n1: 456061 0x494FC34: InitWindow (rcore.c:681)
+           n1: 456061 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+            n0: 456061 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 314928 0x518C97B: UnknownInlinedFun (imLcPrs.c:674)
+  n1: 314928 0x518C97B: parsestringfile (imLcPrs.c:739)
+   n1: 314928 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 314928 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n1: 314928 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 314928 0x518A423: _XimRegisterIMInstantiateCallback (imInsClbk.c:201)
+       n1: 314928 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+        n1: 314928 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+         n1: 314928 0x494FC34: UnknownInlinedFun (init.c:405)
+          n1: 314928 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+           n1: 314928 0x494FC34: InitWindow (rcore.c:681)
+            n1: 314928 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+             n0: 314928 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n0: 96067 in 137 places, all below massif's threshold (1.00%)
+ n1: 73728 0x4B799EF: ??? (in /usr/lib/libstdc++.so.6.0.36)
+  n1: 73728 0x402B1EE: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+   n1: 73728 0x402B2CC: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+    n0: 73728 0x40469BF: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+ n1: 52488 0x518C68E: UnknownInlinedFun (imLcPrs.c:632)
+  n1: 52488 0x518C68E: parsestringfile (imLcPrs.c:739)
+   n1: 52488 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 52488 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n1: 52488 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 52488 0x518A423: _XimRegisterIMInstantiateCallback (imInsClbk.c:201)
+       n1: 52488 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+        n1: 52488 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+         n1: 52488 0x494FC34: UnknownInlinedFun (init.c:405)
+          n1: 52488 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+           n1: 52488 0x494FC34: InitWindow (rcore.c:681)
+            n1: 52488 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+             n0: 52488 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 21176 0x52E3F05: xcb_connect_to_fd (xcb_conn.c:368)
+  n1: 21176 0x52E478D: xcb_connect_to_display_with_auth_info (xcb_util.c:568)
+   n1: 21176 0x515E49A: _XConnectXCB (xcb_disp.c:78)
+    n1: 21176 0x514E039: XOpenDisplay (OpenDis.c:129)
+     n1: 21176 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+      n1: 21176 0x494FC20: UnknownInlinedFun (platform.c:99)
+       n1: 21176 0x494FC20: UnknownInlinedFun (platform.c:62)
+        n1: 21176 0x494FC20: UnknownInlinedFun (init.c:402)
+         n1: 21176 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+          n1: 21176 0x494FC20: InitWindow (rcore.c:681)
+           n1: 21176 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+            n0: 21176 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 18816 0x514E830: XOpenDisplay (OpenDis.c:439)
+  n1: 18816 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+   n1: 18816 0x494FC20: UnknownInlinedFun (platform.c:99)
+    n1: 18816 0x494FC20: UnknownInlinedFun (platform.c:62)
+     n1: 18816 0x494FC20: UnknownInlinedFun (init.c:402)
+      n1: 18816 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+       n1: 18816 0x494FC20: InitWindow (rcore.c:681)
+        n1: 18816 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+         n0: 18816 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 17496 0x518C56A: UnknownInlinedFun (imLcPrs.c:579)
+  n1: 17496 0x518C56A: parsestringfile (imLcPrs.c:739)
+   n1: 17496 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 17496 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n1: 17496 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 17496 0x518A423: _XimRegisterIMInstantiateCallback (imInsClbk.c:201)
+       n1: 17496 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+        n1: 17496 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+         n1: 17496 0x494FC34: UnknownInlinedFun (init.c:405)
+          n1: 17496 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+           n1: 17496 0x494FC34: InitWindow (rcore.c:681)
+            n1: 17496 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+             n0: 17496 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 17496 0x518C7A7: UnknownInlinedFun (imLcPrs.c:648)
+  n1: 17496 0x518C7A7: parsestringfile (imLcPrs.c:739)
+   n1: 17496 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 17496 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n1: 17496 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 17496 0x518A423: _XimRegisterIMInstantiateCallback (imInsClbk.c:201)
+       n1: 17496 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+        n1: 17496 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+         n1: 17496 0x494FC34: UnknownInlinedFun (init.c:405)
+          n1: 17496 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+           n1: 17496 0x494FC34: InitWindow (rcore.c:681)
+            n1: 17496 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+             n0: 17496 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 16384 0x514E36E: XOpenDisplay (OpenDis.c:241)
+  n1: 16384 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+   n1: 16384 0x494FC20: UnknownInlinedFun (platform.c:99)
+    n1: 16384 0x494FC20: UnknownInlinedFun (platform.c:62)
+     n1: 16384 0x494FC20: UnknownInlinedFun (init.c:402)
+      n1: 16384 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+       n1: 16384 0x494FC20: InitWindow (rcore.c:681)
+        n1: 16384 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+         n0: 16384 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 11295 0x403206C: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+  n1: 11295 0x402D4E0: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+   n0: 11295 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=47175219
+mem_heap_B=1095935
+mem_heap_extra_B=14665
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=48711600
+mem_heap_B=1113431
+mem_heap_extra_B=14673
+mem_stacks_B=0
+heap_tree=detailed
+n11: 1113431 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 456061 0x518C13D: parsestringfile (imLcPrs.c:736)
+  n1: 456061 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+   n1: 456061 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+    n1: 456061 0x51839B8: _XimOpenIM (imInt.c:229)
+     n1: 456061 0x518A423: _XimRegisterIMInstantiateCallback (imInsClbk.c:201)
+      n1: 456061 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+       n1: 456061 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+        n1: 456061 0x494FC34: UnknownInlinedFun (init.c:405)
+         n1: 456061 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+          n1: 456061 0x494FC34: InitWindow (rcore.c:681)
+           n1: 456061 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+            n0: 456061 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 314928 0x518C97B: UnknownInlinedFun (imLcPrs.c:674)
+  n1: 314928 0x518C97B: parsestringfile (imLcPrs.c:739)
+   n1: 314928 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 314928 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n1: 314928 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 314928 0x518A423: _XimRegisterIMInstantiateCallback (imInsClbk.c:201)
+       n1: 314928 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+        n1: 314928 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+         n1: 314928 0x494FC34: UnknownInlinedFun (init.c:405)
+          n1: 314928 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+           n1: 314928 0x494FC34: InitWindow (rcore.c:681)
+            n1: 314928 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+             n0: 314928 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n0: 96067 in 137 places, all below massif's threshold (1.00%)
+ n1: 73728 0x4B799EF: ??? (in /usr/lib/libstdc++.so.6.0.36)
+  n1: 73728 0x402B1EE: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+   n1: 73728 0x402B2CC: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+    n0: 73728 0x40469BF: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+ n1: 52488 0x518C68E: UnknownInlinedFun (imLcPrs.c:632)
+  n1: 52488 0x518C68E: parsestringfile (imLcPrs.c:739)
+   n1: 52488 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 52488 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n1: 52488 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 52488 0x518A423: _XimRegisterIMInstantiateCallback (imInsClbk.c:201)
+       n1: 52488 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+        n1: 52488 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+         n1: 52488 0x494FC34: UnknownInlinedFun (init.c:405)
+          n1: 52488 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+           n1: 52488 0x494FC34: InitWindow (rcore.c:681)
+            n1: 52488 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+             n0: 52488 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 26244 0x518C56A: UnknownInlinedFun (imLcPrs.c:579)
+  n1: 26244 0x518C56A: parsestringfile (imLcPrs.c:739)
+   n1: 26244 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 26244 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n1: 26244 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 26244 0x518A423: _XimRegisterIMInstantiateCallback (imInsClbk.c:201)
+       n1: 26244 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+        n1: 26244 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+         n1: 26244 0x494FC34: UnknownInlinedFun (init.c:405)
+          n1: 26244 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+           n1: 26244 0x494FC34: InitWindow (rcore.c:681)
+            n1: 26244 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+             n0: 26244 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 26244 0x518C7A7: UnknownInlinedFun (imLcPrs.c:648)
+  n1: 26244 0x518C7A7: parsestringfile (imLcPrs.c:739)
+   n1: 26244 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 26244 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n1: 26244 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 26244 0x518A423: _XimRegisterIMInstantiateCallback (imInsClbk.c:201)
+       n1: 26244 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+        n1: 26244 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+         n1: 26244 0x494FC34: UnknownInlinedFun (init.c:405)
+          n1: 26244 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+           n1: 26244 0x494FC34: InitWindow (rcore.c:681)
+            n1: 26244 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+             n0: 26244 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 21176 0x52E3F05: xcb_connect_to_fd (xcb_conn.c:368)
+  n1: 21176 0x52E478D: xcb_connect_to_display_with_auth_info (xcb_util.c:568)
+   n1: 21176 0x515E49A: _XConnectXCB (xcb_disp.c:78)
+    n1: 21176 0x514E039: XOpenDisplay (OpenDis.c:129)
+     n1: 21176 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+      n1: 21176 0x494FC20: UnknownInlinedFun (platform.c:99)
+       n1: 21176 0x494FC20: UnknownInlinedFun (platform.c:62)
+        n1: 21176 0x494FC20: UnknownInlinedFun (init.c:402)
+         n1: 21176 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+          n1: 21176 0x494FC20: InitWindow (rcore.c:681)
+           n1: 21176 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+            n0: 21176 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 18816 0x514E830: XOpenDisplay (OpenDis.c:439)
+  n1: 18816 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+   n1: 18816 0x494FC20: UnknownInlinedFun (platform.c:99)
+    n1: 18816 0x494FC20: UnknownInlinedFun (platform.c:62)
+     n1: 18816 0x494FC20: UnknownInlinedFun (init.c:402)
+      n1: 18816 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+       n1: 18816 0x494FC20: InitWindow (rcore.c:681)
+        n1: 18816 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+         n0: 18816 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 16384 0x514E36E: XOpenDisplay (OpenDis.c:241)
+  n1: 16384 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+   n1: 16384 0x494FC20: UnknownInlinedFun (platform.c:99)
+    n1: 16384 0x494FC20: UnknownInlinedFun (platform.c:62)
+     n1: 16384 0x494FC20: UnknownInlinedFun (init.c:402)
+      n1: 16384 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+       n1: 16384 0x494FC20: InitWindow (rcore.c:681)
+        n1: 16384 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+         n0: 16384 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 11295 0x403206C: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+  n1: 11295 0x402D4E0: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+   n0: 11295 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=49949900
+mem_heap_B=1113431
+mem_heap_extra_B=14673
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=51184930
+mem_heap_B=1113431
+mem_heap_extra_B=14673
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=53364114
+mem_heap_B=709967
+mem_heap_extra_B=14681
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=54595191
+mem_heap_B=727359
+mem_heap_extra_B=14673
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=56445998
+mem_heap_B=746559
+mem_heap_extra_B=14673
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=57679164
+mem_heap_B=769615
+mem_heap_extra_B=14681
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=59532152
+mem_heap_B=773071
+mem_heap_extra_B=14681
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=61382767
+mem_heap_B=812815
+mem_heap_extra_B=14681
+mem_stacks_B=0
+heap_tree=detailed
+n10: 812815 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 456061 0x518C13D: parsestringfile (imLcPrs.c:736)
+  n1: 456061 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+   n1: 456061 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+    n2: 456061 0x51839B8: _XimOpenIM (imInt.c:229)
+     n1: 456061 0x4A04462: UnknownInlinedFun (x11_init.c:474)
+      n1: 456061 0x4A04462: inputMethodInstantiateCallback (x11_init.c:467)
+       n1: 456061 0x518A46E: _XimRegisterIMInstantiateCallback (imInsClbk.c:220)
+        n1: 456061 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+         n1: 456061 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+          n1: 456061 0x494FC34: UnknownInlinedFun (init.c:405)
+           n1: 456061 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+            n1: 456061 0x494FC34: InitWindow (rcore.c:681)
+             n1: 456061 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+              n0: 456061 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 98215 in 141 places, all below massif's threshold (1.00%)
+ n1: 93312 0x518C97B: UnknownInlinedFun (imLcPrs.c:674)
+  n1: 93312 0x518C97B: parsestringfile (imLcPrs.c:739)
+   n1: 93312 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 93312 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n2: 93312 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 93312 0x4A04462: UnknownInlinedFun (x11_init.c:474)
+       n1: 93312 0x4A04462: inputMethodInstantiateCallback (x11_init.c:467)
+        n1: 93312 0x518A46E: _XimRegisterIMInstantiateCallback (imInsClbk.c:220)
+         n1: 93312 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+          n1: 93312 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+           n1: 93312 0x494FC34: UnknownInlinedFun (init.c:405)
+            n1: 93312 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+             n1: 93312 0x494FC34: InitWindow (rcore.c:681)
+              n1: 93312 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+               n0: 93312 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 73728 0x4B799EF: ??? (in /usr/lib/libstdc++.so.6.0.36)
+  n1: 73728 0x402B1EE: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+   n1: 73728 0x402B2CC: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+    n0: 73728 0x40469BF: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+ n1: 21176 0x52E3F05: xcb_connect_to_fd (xcb_conn.c:368)
+  n1: 21176 0x52E478D: xcb_connect_to_display_with_auth_info (xcb_util.c:568)
+   n1: 21176 0x515E49A: _XConnectXCB (xcb_disp.c:78)
+    n1: 21176 0x514E039: XOpenDisplay (OpenDis.c:129)
+     n1: 21176 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+      n1: 21176 0x494FC20: UnknownInlinedFun (platform.c:99)
+       n1: 21176 0x494FC20: UnknownInlinedFun (platform.c:62)
+        n1: 21176 0x494FC20: UnknownInlinedFun (init.c:402)
+         n1: 21176 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+          n1: 21176 0x494FC20: InitWindow (rcore.c:681)
+           n1: 21176 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+            n0: 21176 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 18816 0x514E830: XOpenDisplay (OpenDis.c:439)
+  n1: 18816 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+   n1: 18816 0x494FC20: UnknownInlinedFun (platform.c:99)
+    n1: 18816 0x494FC20: UnknownInlinedFun (platform.c:62)
+     n1: 18816 0x494FC20: UnknownInlinedFun (init.c:402)
+      n1: 18816 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+       n1: 18816 0x494FC20: InitWindow (rcore.c:681)
+        n1: 18816 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+         n0: 18816 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 16384 0x514E36E: XOpenDisplay (OpenDis.c:241)
+  n1: 16384 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+   n1: 16384 0x494FC20: UnknownInlinedFun (platform.c:99)
+    n1: 16384 0x494FC20: UnknownInlinedFun (platform.c:62)
+     n1: 16384 0x494FC20: UnknownInlinedFun (init.c:402)
+      n1: 16384 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+       n1: 16384 0x494FC20: InitWindow (rcore.c:681)
+        n1: 16384 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+         n0: 16384 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 15552 0x518C68E: UnknownInlinedFun (imLcPrs.c:632)
+  n1: 15552 0x518C68E: parsestringfile (imLcPrs.c:739)
+   n1: 15552 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 15552 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n2: 15552 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 15552 0x4A04462: UnknownInlinedFun (x11_init.c:474)
+       n1: 15552 0x4A04462: inputMethodInstantiateCallback (x11_init.c:467)
+        n1: 15552 0x518A46E: _XimRegisterIMInstantiateCallback (imInsClbk.c:220)
+         n1: 15552 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+          n1: 15552 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+           n1: 15552 0x494FC34: UnknownInlinedFun (init.c:405)
+            n1: 15552 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+             n1: 15552 0x494FC34: InitWindow (rcore.c:681)
+              n1: 15552 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+               n0: 15552 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 11295 0x403206C: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+  n1: 11295 0x402D4E0: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+   n0: 11295 in 2 places, all below massif's threshold (1.00%)
+ n1: 8276 0x52E41E7: UnknownInlinedFun (xcb_conn.c:184)
+  n1: 8276 0x52E41E7: xcb_connect_to_fd (xcb_conn.c:386)
+   n1: 8276 0x52E478D: xcb_connect_to_display_with_auth_info (xcb_util.c:568)
+    n1: 8276 0x515E49A: _XConnectXCB (xcb_disp.c:78)
+     n1: 8276 0x514E039: XOpenDisplay (OpenDis.c:129)
+      n1: 8276 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+       n1: 8276 0x494FC20: UnknownInlinedFun (platform.c:99)
+        n1: 8276 0x494FC20: UnknownInlinedFun (platform.c:62)
+         n1: 8276 0x494FC20: UnknownInlinedFun (init.c:402)
+          n1: 8276 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+           n1: 8276 0x494FC20: InitWindow (rcore.c:681)
+            n1: 8276 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+             n0: 8276 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+#-----------
+snapshot=38
+#-----------
+time=62617922
+mem_heap_B=812815
+mem_heap_extra_B=14681
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=64470687
+mem_heap_B=864655
+mem_heap_extra_B=14681
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=66327390
+mem_heap_B=872431
+mem_heap_extra_B=14681
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=67564011
+mem_heap_B=872431
+mem_heap_extra_B=14681
+mem_stacks_B=0
+heap_tree=detailed
+n9: 872431 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 456061 0x518C13D: parsestringfile (imLcPrs.c:736)
+  n1: 456061 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+   n1: 456061 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+    n2: 456061 0x51839B8: _XimOpenIM (imInt.c:229)
+     n1: 456061 0x4A04462: UnknownInlinedFun (x11_init.c:474)
+      n1: 456061 0x4A04462: inputMethodInstantiateCallback (x11_init.c:467)
+       n1: 456061 0x518A46E: _XimRegisterIMInstantiateCallback (imInsClbk.c:220)
+        n1: 456061 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+         n1: 456061 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+          n1: 456061 0x494FC34: UnknownInlinedFun (init.c:405)
+           n1: 456061 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+            n1: 456061 0x494FC34: InitWindow (rcore.c:681)
+             n1: 456061 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+              n0: 456061 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 139968 0x518C97B: UnknownInlinedFun (imLcPrs.c:674)
+  n1: 139968 0x518C97B: parsestringfile (imLcPrs.c:739)
+   n1: 139968 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 139968 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n2: 139968 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 139968 0x4A04462: UnknownInlinedFun (x11_init.c:474)
+       n1: 139968 0x4A04462: inputMethodInstantiateCallback (x11_init.c:467)
+        n1: 139968 0x518A46E: _XimRegisterIMInstantiateCallback (imInsClbk.c:220)
+         n1: 139968 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+          n1: 139968 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+           n1: 139968 0x494FC34: UnknownInlinedFun (init.c:405)
+            n1: 139968 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+             n1: 139968 0x494FC34: InitWindow (rcore.c:681)
+              n1: 139968 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+               n0: 139968 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 111675 in 142 places, all below massif's threshold (1.00%)
+ n1: 73728 0x4B799EF: ??? (in /usr/lib/libstdc++.so.6.0.36)
+  n1: 73728 0x402B1EE: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+   n1: 73728 0x402B2CC: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+    n0: 73728 0x40469BF: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+ n1: 23328 0x518C68E: UnknownInlinedFun (imLcPrs.c:632)
+  n1: 23328 0x518C68E: parsestringfile (imLcPrs.c:739)
+   n1: 23328 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 23328 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n2: 23328 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 23328 0x4A04462: UnknownInlinedFun (x11_init.c:474)
+       n1: 23328 0x4A04462: inputMethodInstantiateCallback (x11_init.c:467)
+        n1: 23328 0x518A46E: _XimRegisterIMInstantiateCallback (imInsClbk.c:220)
+         n1: 23328 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+          n1: 23328 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+           n1: 23328 0x494FC34: UnknownInlinedFun (init.c:405)
+            n1: 23328 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+             n1: 23328 0x494FC34: InitWindow (rcore.c:681)
+              n1: 23328 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+               n0: 23328 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 21176 0x52E3F05: xcb_connect_to_fd (xcb_conn.c:368)
+  n1: 21176 0x52E478D: xcb_connect_to_display_with_auth_info (xcb_util.c:568)
+   n1: 21176 0x515E49A: _XConnectXCB (xcb_disp.c:78)
+    n1: 21176 0x514E039: XOpenDisplay (OpenDis.c:129)
+     n1: 21176 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+      n1: 21176 0x494FC20: UnknownInlinedFun (platform.c:99)
+       n1: 21176 0x494FC20: UnknownInlinedFun (platform.c:62)
+        n1: 21176 0x494FC20: UnknownInlinedFun (init.c:402)
+         n1: 21176 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+          n1: 21176 0x494FC20: InitWindow (rcore.c:681)
+           n1: 21176 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+            n0: 21176 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 18816 0x514E830: XOpenDisplay (OpenDis.c:439)
+  n1: 18816 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+   n1: 18816 0x494FC20: UnknownInlinedFun (platform.c:99)
+    n1: 18816 0x494FC20: UnknownInlinedFun (platform.c:62)
+     n1: 18816 0x494FC20: UnknownInlinedFun (init.c:402)
+      n1: 18816 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+       n1: 18816 0x494FC20: InitWindow (rcore.c:681)
+        n1: 18816 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+         n0: 18816 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 16384 0x514E36E: XOpenDisplay (OpenDis.c:241)
+  n1: 16384 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+   n1: 16384 0x494FC20: UnknownInlinedFun (platform.c:99)
+    n1: 16384 0x494FC20: UnknownInlinedFun (platform.c:62)
+     n1: 16384 0x494FC20: UnknownInlinedFun (init.c:402)
+      n1: 16384 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+       n1: 16384 0x494FC20: InitWindow (rcore.c:681)
+        n1: 16384 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+         n0: 16384 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 11295 0x403206C: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+  n1: 11295 0x402D4E0: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+   n0: 11295 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=42
+#-----------
+time=68794822
+mem_heap_B=872431
+mem_heap_extra_B=14681
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=70031975
+mem_heap_B=880207
+mem_heap_extra_B=14681
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=71265345
+mem_heap_B=950191
+mem_heap_extra_B=14681
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=73116773
+mem_heap_B=950191
+mem_heap_extra_B=14681
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=74976078
+mem_heap_B=961855
+mem_heap_extra_B=14681
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=76214747
+mem_heap_B=961855
+mem_heap_extra_B=14681
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=77448366
+mem_heap_B=973519
+mem_heap_extra_B=14697
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=79315152
+mem_heap_B=973519
+mem_heap_extra_B=14697
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=80254935
+mem_heap_B=973519
+mem_heap_extra_B=14697
+mem_stacks_B=0
+heap_tree=detailed
+n11: 973519 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 456061 0x518C13D: parsestringfile (imLcPrs.c:736)
+  n1: 456061 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+   n1: 456061 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+    n2: 456061 0x51839B8: _XimOpenIM (imInt.c:229)
+     n1: 456061 0x4A04462: UnknownInlinedFun (x11_init.c:474)
+      n1: 456061 0x4A04462: inputMethodInstantiateCallback (x11_init.c:467)
+       n1: 456061 0x518A46E: _XimRegisterIMInstantiateCallback (imInsClbk.c:220)
+        n1: 456061 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+         n1: 456061 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+          n1: 456061 0x494FC34: UnknownInlinedFun (init.c:405)
+           n1: 456061 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+            n1: 456061 0x494FC34: InitWindow (rcore.c:681)
+             n1: 456061 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+              n0: 456061 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 209952 0x518C97B: UnknownInlinedFun (imLcPrs.c:674)
+  n1: 209952 0x518C97B: parsestringfile (imLcPrs.c:739)
+   n1: 209952 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 209952 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n2: 209952 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 209952 0x4A04462: UnknownInlinedFun (x11_init.c:474)
+       n1: 209952 0x4A04462: inputMethodInstantiateCallback (x11_init.c:467)
+        n1: 209952 0x518A46E: _XimRegisterIMInstantiateCallback (imInsClbk.c:220)
+         n1: 209952 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+          n1: 209952 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+           n1: 209952 0x494FC34: UnknownInlinedFun (init.c:405)
+            n1: 209952 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+             n1: 209952 0x494FC34: InitWindow (rcore.c:681)
+              n1: 209952 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+               n0: 209952 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 96123 in 140 places, all below massif's threshold (1.00%)
+ n1: 73728 0x4B799EF: ??? (in /usr/lib/libstdc++.so.6.0.36)
+  n1: 73728 0x402B1EE: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+   n1: 73728 0x402B2CC: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+    n0: 73728 0x40469BF: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+ n1: 34992 0x518C68E: UnknownInlinedFun (imLcPrs.c:632)
+  n1: 34992 0x518C68E: parsestringfile (imLcPrs.c:739)
+   n1: 34992 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 34992 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n2: 34992 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 34992 0x4A04462: UnknownInlinedFun (x11_init.c:474)
+       n1: 34992 0x4A04462: inputMethodInstantiateCallback (x11_init.c:467)
+        n1: 34992 0x518A46E: _XimRegisterIMInstantiateCallback (imInsClbk.c:220)
+         n1: 34992 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+          n1: 34992 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+           n1: 34992 0x494FC34: UnknownInlinedFun (init.c:405)
+            n1: 34992 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+             n1: 34992 0x494FC34: InitWindow (rcore.c:681)
+              n1: 34992 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+               n0: 34992 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 21176 0x52E3F05: xcb_connect_to_fd (xcb_conn.c:368)
+  n1: 21176 0x52E478D: xcb_connect_to_display_with_auth_info (xcb_util.c:568)
+   n1: 21176 0x515E49A: _XConnectXCB (xcb_disp.c:78)
+    n1: 21176 0x514E039: XOpenDisplay (OpenDis.c:129)
+     n1: 21176 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+      n1: 21176 0x494FC20: UnknownInlinedFun (platform.c:99)
+       n1: 21176 0x494FC20: UnknownInlinedFun (platform.c:62)
+        n1: 21176 0x494FC20: UnknownInlinedFun (init.c:402)
+         n1: 21176 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+          n1: 21176 0x494FC20: InitWindow (rcore.c:681)
+           n1: 21176 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+            n0: 21176 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 18816 0x514E830: XOpenDisplay (OpenDis.c:439)
+  n1: 18816 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+   n1: 18816 0x494FC20: UnknownInlinedFun (platform.c:99)
+    n1: 18816 0x494FC20: UnknownInlinedFun (platform.c:62)
+     n1: 18816 0x494FC20: UnknownInlinedFun (init.c:402)
+      n1: 18816 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+       n1: 18816 0x494FC20: InitWindow (rcore.c:681)
+        n1: 18816 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+         n0: 18816 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 17496 0x518C56A: UnknownInlinedFun (imLcPrs.c:579)
+  n1: 17496 0x518C56A: parsestringfile (imLcPrs.c:739)
+   n1: 17496 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 17496 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n2: 17496 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 17496 0x4A04462: UnknownInlinedFun (x11_init.c:474)
+       n1: 17496 0x4A04462: inputMethodInstantiateCallback (x11_init.c:467)
+        n1: 17496 0x518A46E: _XimRegisterIMInstantiateCallback (imInsClbk.c:220)
+         n1: 17496 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+          n1: 17496 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+           n1: 17496 0x494FC34: UnknownInlinedFun (init.c:405)
+            n1: 17496 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+             n1: 17496 0x494FC34: InitWindow (rcore.c:681)
+              n1: 17496 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+               n0: 17496 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 17496 0x518C7A7: UnknownInlinedFun (imLcPrs.c:648)
+  n1: 17496 0x518C7A7: parsestringfile (imLcPrs.c:739)
+   n1: 17496 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 17496 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n2: 17496 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 17496 0x4A04462: UnknownInlinedFun (x11_init.c:474)
+       n1: 17496 0x4A04462: inputMethodInstantiateCallback (x11_init.c:467)
+        n1: 17496 0x518A46E: _XimRegisterIMInstantiateCallback (imInsClbk.c:220)
+         n1: 17496 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+          n1: 17496 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+           n1: 17496 0x494FC34: UnknownInlinedFun (init.c:405)
+            n1: 17496 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+             n1: 17496 0x494FC34: InitWindow (rcore.c:681)
+              n1: 17496 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+               n0: 17496 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 16384 0x514E36E: XOpenDisplay (OpenDis.c:241)
+  n1: 16384 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+   n1: 16384 0x494FC20: UnknownInlinedFun (platform.c:99)
+    n1: 16384 0x494FC20: UnknownInlinedFun (platform.c:62)
+     n1: 16384 0x494FC20: UnknownInlinedFun (init.c:402)
+      n1: 16384 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+       n1: 16384 0x494FC20: InitWindow (rcore.c:681)
+        n1: 16384 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+         n0: 16384 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 11295 0x403206C: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+  n1: 11295 0x402D4E0: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+   n0: 11295 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=51
+#-----------
+time=81189375
+mem_heap_B=973519
+mem_heap_extra_B=14697
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=82123864
+mem_heap_B=1078495
+mem_heap_extra_B=14697
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=83057139
+mem_heap_B=1078495
+mem_heap_extra_B=14697
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=83994025
+mem_heap_B=1078495
+mem_heap_extra_B=14697
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=84928422
+mem_heap_B=1078495
+mem_heap_extra_B=14697
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=85861609
+mem_heap_B=1078495
+mem_heap_extra_B=14697
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=86793190
+mem_heap_B=1095991
+mem_heap_extra_B=14705
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=87726370
+mem_heap_B=1095991
+mem_heap_extra_B=14705
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=88661511
+mem_heap_B=1095991
+mem_heap_extra_B=14705
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=89593419
+mem_heap_B=1113487
+mem_heap_extra_B=14713
+mem_stacks_B=0
+heap_tree=detailed
+n11: 1113487 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 456061 0x518C13D: parsestringfile (imLcPrs.c:736)
+  n1: 456061 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+   n1: 456061 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+    n2: 456061 0x51839B8: _XimOpenIM (imInt.c:229)
+     n1: 456061 0x4A04462: UnknownInlinedFun (x11_init.c:474)
+      n1: 456061 0x4A04462: inputMethodInstantiateCallback (x11_init.c:467)
+       n1: 456061 0x518A46E: _XimRegisterIMInstantiateCallback (imInsClbk.c:220)
+        n1: 456061 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+         n1: 456061 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+          n1: 456061 0x494FC34: UnknownInlinedFun (init.c:405)
+           n1: 456061 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+            n1: 456061 0x494FC34: InitWindow (rcore.c:681)
+             n1: 456061 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+              n0: 456061 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 314928 0x518C97B: UnknownInlinedFun (imLcPrs.c:674)
+  n1: 314928 0x518C97B: parsestringfile (imLcPrs.c:739)
+   n1: 314928 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 314928 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n2: 314928 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 314928 0x4A04462: UnknownInlinedFun (x11_init.c:474)
+       n1: 314928 0x4A04462: inputMethodInstantiateCallback (x11_init.c:467)
+        n1: 314928 0x518A46E: _XimRegisterIMInstantiateCallback (imInsClbk.c:220)
+         n1: 314928 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+          n1: 314928 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+           n1: 314928 0x494FC34: UnknownInlinedFun (init.c:405)
+            n1: 314928 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+             n1: 314928 0x494FC34: InitWindow (rcore.c:681)
+              n1: 314928 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+               n0: 314928 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 96123 in 140 places, all below massif's threshold (1.00%)
+ n1: 73728 0x4B799EF: ??? (in /usr/lib/libstdc++.so.6.0.36)
+  n1: 73728 0x402B1EE: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+   n1: 73728 0x402B2CC: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+    n0: 73728 0x40469BF: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+ n1: 52488 0x518C68E: UnknownInlinedFun (imLcPrs.c:632)
+  n1: 52488 0x518C68E: parsestringfile (imLcPrs.c:739)
+   n1: 52488 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 52488 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n2: 52488 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 52488 0x4A04462: UnknownInlinedFun (x11_init.c:474)
+       n1: 52488 0x4A04462: inputMethodInstantiateCallback (x11_init.c:467)
+        n1: 52488 0x518A46E: _XimRegisterIMInstantiateCallback (imInsClbk.c:220)
+         n1: 52488 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+          n1: 52488 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+           n1: 52488 0x494FC34: UnknownInlinedFun (init.c:405)
+            n1: 52488 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+             n1: 52488 0x494FC34: InitWindow (rcore.c:681)
+              n1: 52488 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+               n0: 52488 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 26244 0x518C56A: UnknownInlinedFun (imLcPrs.c:579)
+  n1: 26244 0x518C56A: parsestringfile (imLcPrs.c:739)
+   n1: 26244 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 26244 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n2: 26244 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 26244 0x4A04462: UnknownInlinedFun (x11_init.c:474)
+       n1: 26244 0x4A04462: inputMethodInstantiateCallback (x11_init.c:467)
+        n1: 26244 0x518A46E: _XimRegisterIMInstantiateCallback (imInsClbk.c:220)
+         n1: 26244 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+          n1: 26244 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+           n1: 26244 0x494FC34: UnknownInlinedFun (init.c:405)
+            n1: 26244 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+             n1: 26244 0x494FC34: InitWindow (rcore.c:681)
+              n1: 26244 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+               n0: 26244 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 26244 0x518C7A7: UnknownInlinedFun (imLcPrs.c:648)
+  n1: 26244 0x518C7A7: parsestringfile (imLcPrs.c:739)
+   n1: 26244 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 26244 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n2: 26244 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 26244 0x4A04462: UnknownInlinedFun (x11_init.c:474)
+       n1: 26244 0x4A04462: inputMethodInstantiateCallback (x11_init.c:467)
+        n1: 26244 0x518A46E: _XimRegisterIMInstantiateCallback (imInsClbk.c:220)
+         n1: 26244 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+          n1: 26244 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+           n1: 26244 0x494FC34: UnknownInlinedFun (init.c:405)
+            n1: 26244 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+             n1: 26244 0x494FC34: InitWindow (rcore.c:681)
+              n1: 26244 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+               n0: 26244 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 21176 0x52E3F05: xcb_connect_to_fd (xcb_conn.c:368)
+  n1: 21176 0x52E478D: xcb_connect_to_display_with_auth_info (xcb_util.c:568)
+   n1: 21176 0x515E49A: _XConnectXCB (xcb_disp.c:78)
+    n1: 21176 0x514E039: XOpenDisplay (OpenDis.c:129)
+     n1: 21176 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+      n1: 21176 0x494FC20: UnknownInlinedFun (platform.c:99)
+       n1: 21176 0x494FC20: UnknownInlinedFun (platform.c:62)
+        n1: 21176 0x494FC20: UnknownInlinedFun (init.c:402)
+         n1: 21176 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+          n1: 21176 0x494FC20: InitWindow (rcore.c:681)
+           n1: 21176 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+            n0: 21176 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 18816 0x514E830: XOpenDisplay (OpenDis.c:439)
+  n1: 18816 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+   n1: 18816 0x494FC20: UnknownInlinedFun (platform.c:99)
+    n1: 18816 0x494FC20: UnknownInlinedFun (platform.c:62)
+     n1: 18816 0x494FC20: UnknownInlinedFun (init.c:402)
+      n1: 18816 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+       n1: 18816 0x494FC20: InitWindow (rcore.c:681)
+        n1: 18816 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+         n0: 18816 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 16384 0x514E36E: XOpenDisplay (OpenDis.c:241)
+  n1: 16384 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+   n1: 16384 0x494FC20: UnknownInlinedFun (platform.c:99)
+    n1: 16384 0x494FC20: UnknownInlinedFun (platform.c:62)
+     n1: 16384 0x494FC20: UnknownInlinedFun (init.c:402)
+      n1: 16384 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+       n1: 16384 0x494FC20: InitWindow (rcore.c:681)
+        n1: 16384 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+         n0: 16384 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 11295 0x403206C: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+  n1: 11295 0x402D4E0: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+   n0: 11295 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=61
+#-----------
+time=90530218
+mem_heap_B=1113487
+mem_heap_extra_B=14713
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=91462855
+mem_heap_B=1113487
+mem_heap_extra_B=14713
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=103892638
+mem_heap_B=822160
+mem_heap_extra_B=14696
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=133785643
+mem_heap_B=905755
+mem_heap_extra_B=18333
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=137897510
+mem_heap_B=922043
+mem_heap_extra_B=18341
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=147792073
+mem_heap_B=914227
+mem_heap_extra_B=18349
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=148725276
+mem_heap_B=1020521
+mem_heap_extra_B=19319
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=148939637
+mem_heap_B=1121361
+mem_heap_extra_B=19335
+mem_stacks_B=0
+heap_tree=peak
+n14: 1121361 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 314928 0x518C97B: UnknownInlinedFun (imLcPrs.c:674)
+  n1: 314928 0x518C97B: parsestringfile (imLcPrs.c:739)
+   n1: 314928 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 314928 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n2: 314928 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 314928 0x4A04462: UnknownInlinedFun (x11_init.c:474)
+       n1: 314928 0x4A04462: inputMethodInstantiateCallback (x11_init.c:467)
+        n1: 314928 0x518A46E: _XimRegisterIMInstantiateCallback (imInsClbk.c:220)
+         n1: 314928 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+          n1: 314928 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+           n1: 314928 0x494FC34: UnknownInlinedFun (init.c:405)
+            n1: 314928 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+             n1: 314928 0x494FC34: InitWindow (rcore.c:681)
+              n1: 314928 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+               n0: 314928 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 168805 0x494FCC4: UnknownInlinedFun (init.c:261)
+  n1: 168805 0x494FCC4: UnknownInlinedFun (input.c:490)
+   n1: 168805 0x494FCC4: UnknownInlinedFun (init.c:421)
+    n1: 168805 0x494FCC4: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+     n1: 168805 0x494FCC4: InitWindow (rcore.c:681)
+      n1: 168805 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+       n0: 168805 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n2: 150146 0x9A412B4: llvm::allocate_buffer(unsigned long, unsigned long) (MemAlloc.cpp:16)
+  n1: 147456 0x99DA0A1: allocateBuckets (DenseMap.h:837)
+   n1: 147456 0x99DA0A1: initWithExactBucketCount (DenseMap.h:383)
+    n1: 147456 0x99DA0A1: initWithExactBucketCount (DenseMap.h:382)
+     n1: 147456 0x99DA0A1: DenseMap (DenseMap.h:760)
+      n1: 147456 0x99DA0A1: llvm::DenseMapBase<llvm::DenseMap<llvm::StringRef, llvm::cl::Option*, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseMapPair<llvm::StringRef, llvm::cl::Option*> >, llvm::StringRef, llvm::cl::Option*, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseMapPair<llvm::StringRef, llvm::cl::Option*> >::grow(unsigned int) (DenseMap.h:569)
+       n1: 147456 0x99DB0CD: findBucketForInsertion<llvm::StringRef> (DenseMap.h:599)
+        n1: 147456 0x99DB0CD: lookupOrInsertIntoBucket<llvm::StringRef, llvm::cl::Option*> (DenseMap.h:510)
+         n1: 147456 0x99DB0CD: try_emplace_impl<llvm::StringRef, llvm::cl::Option*> (DenseMap.h:518)
+          n1: 147456 0x99DB0CD: insert (DenseMap.h:249)
+           n1: 147456 0x99DB0CD: (anonymous namespace)::CommandLineParser::addOption(llvm::cl::Option*, llvm::cl::SubCommand*) (CommandLine.cpp:237)
+            n1: 147456 0x99DBA65: addOption (CommandLine.cpp:270)
+             n3: 147456 0x99DBA65: llvm::cl::Option::addArgument() (CommandLine.cpp:453)
+              n1: 98304 0x9834216: done (CommandLine.h:1505)
+               n1: 98304 0x9834216: opt<char [31], llvm::cl::OptionHidden, llvm::cl::initializer<int>, llvm::cl::desc> (CommandLine.h:1537)
+                n1: 98304 0x9834216: __static_initialization_and_destruction_0() (InlineCost.cpp:88)
+                 n1: 98304 0x402B1EE: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+                  n1: 98304 0x402B2CC: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+                   n1: 98304 0x4027526: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+                    n1: 98304 0x4032618: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+                     n1: 98304 0x4027478: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+                      n1: 98304 0x4032AE9: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+                       n1: 98304 0x4F94393: ??? (in /usr/lib/libc.so.6)
+                        n1: 98304 0x4027478: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+                         n1: 98304 0x40275C8: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+                          n1: 98304 0x4F93E62: ??? (in /usr/lib/libc.so.6)
+                           n1: 98304 0x4F9444A: dlopen (in /usr/lib/libc.so.6)
+                            n1: 98304 0x5393688: __glXLookupVendorByName (libglxmapping.c:428)
+                             n1: 98304 0x5394544: __glXLookupVendorByScreen (libglxmapping.c:572)
+                              n1: 98304 0x5395456: UnknownInlinedFun (libglxmapping.c:606)
+                               n1: 98304 0x5395456: glXQueryExtensionsString (libglx.c:1473)
+                                n1: 98304 0x4A10EE6: extensionSupportedGLX.lto_priv.0 (glx_context.c:213)
+                                 n1: 98304 0x4A0CEB2: UnknownInlinedFun (glx_context.c:366)
+                                  n1: 98304 0x4A0CEB2: _glfwCreateWindowX11 (x11_window.c:1972)
+                                   n1: 98304 0x49FBD8A: glfwCreateWindow.constprop.0 (window.c:247)
+                                    n1: 98304 0x494F430: UnknownInlinedFun (rcore_desktop_glfw.c:1651)
+                                     n1: 98304 0x494F430: InitWindow (rcore.c:681)
+                                      n1: 98304 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+                                       n0: 98304 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+              n1: 49152 0x97DF8BC: done (CommandLine.h:1505)
+               n1: 49152 0x97DF8BC: opt<char [26], llvm::cl::desc, llvm::cl::OptionHidden, llvm::cl::initializer<bool> > (CommandLine.h:1537)
+                n1: 49152 0x97DF8BC: __static_initialization_and_destruction_0() (MemorySanitizer.cpp:284)
+                 n1: 49152 0x402B1EE: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+                  n1: 49152 0x402B2CC: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+                   n1: 49152 0x4027526: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+                    n1: 49152 0x4032618: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+                     n1: 49152 0x4027478: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+                      n1: 49152 0x4032AE9: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+                       n1: 49152 0x4F94393: ??? (in /usr/lib/libc.so.6)
+                        n1: 49152 0x4027478: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+                         n1: 49152 0x40275C8: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+                          n1: 49152 0x4F93E62: ??? (in /usr/lib/libc.so.6)
+                           n1: 49152 0x4F9444A: dlopen (in /usr/lib/libc.so.6)
+                            n1: 49152 0x5393688: __glXLookupVendorByName (libglxmapping.c:428)
+                             n1: 49152 0x5394544: __glXLookupVendorByScreen (libglxmapping.c:572)
+                              n1: 49152 0x5395456: UnknownInlinedFun (libglxmapping.c:606)
+                               n1: 49152 0x5395456: glXQueryExtensionsString (libglx.c:1473)
+                                n1: 49152 0x4A10EE6: extensionSupportedGLX.lto_priv.0 (glx_context.c:213)
+                                 n1: 49152 0x4A0CEB2: UnknownInlinedFun (glx_context.c:366)
+                                  n1: 49152 0x4A0CEB2: _glfwCreateWindowX11 (x11_window.c:1972)
+                                   n1: 49152 0x49FBD8A: glfwCreateWindow.constprop.0 (window.c:247)
+                                    n1: 49152 0x494F430: UnknownInlinedFun (rcore_desktop_glfw.c:1651)
+                                     n1: 49152 0x494F430: InitWindow (rcore.c:681)
+                                      n1: 49152 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+                                       n0: 49152 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+              n0: 0 in 5 places, all below massif's threshold (1.00%)
+  n0: 2690 in 3 places, all below massif's threshold (1.00%)
+ n0: 138898 in 220 places, all below massif's threshold (1.00%)
+ n1: 73728 0x4B799EF: ??? (in /usr/lib/libstdc++.so.6.0.36)
+  n1: 73728 0x402B1EE: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+   n1: 73728 0x402B2CC: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+    n0: 73728 0x40469BF: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+ n1: 52488 0x518C68E: UnknownInlinedFun (imLcPrs.c:632)
+  n1: 52488 0x518C68E: parsestringfile (imLcPrs.c:739)
+   n1: 52488 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 52488 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n2: 52488 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 52488 0x4A04462: UnknownInlinedFun (x11_init.c:474)
+       n1: 52488 0x4A04462: inputMethodInstantiateCallback (x11_init.c:467)
+        n1: 52488 0x518A46E: _XimRegisterIMInstantiateCallback (imInsClbk.c:220)
+         n1: 52488 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+          n1: 52488 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+           n1: 52488 0x494FC34: UnknownInlinedFun (init.c:405)
+            n1: 52488 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+             n1: 52488 0x494FC34: InitWindow (rcore.c:681)
+              n1: 52488 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+               n0: 52488 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 52000 0x4F405FD: ??? (in /usr/lib/libc.so.6)
+  n2: 52000 0x4F4068E: ??? (in /usr/lib/libc.so.6)
+   n0: 40560 in 39 places, all below massif's threshold (1.00%)
+   n1: 11440 0x402B1EE: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+    n1: 11440 0x402B2CC: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+     n1: 11440 0x4027526: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+      n1: 11440 0x4032618: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+       n1: 11440 0x4027478: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+        n1: 11440 0x4032AE9: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+         n1: 11440 0x4F94393: ??? (in /usr/lib/libc.so.6)
+          n1: 11440 0x4027478: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+           n1: 11440 0x40275C8: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+            n1: 11440 0x4F93E62: ??? (in /usr/lib/libc.so.6)
+             n1: 11440 0x4F9444A: dlopen (in /usr/lib/libc.so.6)
+              n1: 11440 0x5393688: __glXLookupVendorByName (libglxmapping.c:428)
+               n1: 11440 0x5394544: __glXLookupVendorByScreen (libglxmapping.c:572)
+                n1: 11440 0x5395456: UnknownInlinedFun (libglxmapping.c:606)
+                 n1: 11440 0x5395456: glXQueryExtensionsString (libglx.c:1473)
+                  n1: 11440 0x4A10EE6: extensionSupportedGLX.lto_priv.0 (glx_context.c:213)
+                   n1: 11440 0x4A0CEB2: UnknownInlinedFun (glx_context.c:366)
+                    n1: 11440 0x4A0CEB2: _glfwCreateWindowX11 (x11_window.c:1972)
+                     n1: 11440 0x49FBD8A: glfwCreateWindow.constprop.0 (window.c:247)
+                      n1: 11440 0x494F430: UnknownInlinedFun (rcore_desktop_glfw.c:1651)
+                       n1: 11440 0x494F430: InitWindow (rcore.c:681)
+                        n1: 11440 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+                         n0: 11440 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 45216 0x403206C: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+  n2: 45216 0x402D4E0: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+   n1: 36428 0x402887C: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+    n1: 36428 0x4027478: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+     n1: 36428 0x4028DBC: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+      n1: 36428 0x403300F: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+       n1: 36428 0x4027478: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+        n1: 36428 0x4032582: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+         n1: 36428 0x4027478: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+          n1: 36428 0x4032AE9: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+           n1: 36428 0x4F94393: ??? (in /usr/lib/libc.so.6)
+            n1: 36428 0x4027478: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+             n1: 36428 0x40275C8: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+              n1: 36428 0x4F93E62: ??? (in /usr/lib/libc.so.6)
+               n2: 36428 0x4F9444A: dlopen (in /usr/lib/libc.so.6)
+                n1: 32664 0x5393688: __glXLookupVendorByName (libglxmapping.c:428)
+                 n1: 32664 0x5394544: __glXLookupVendorByScreen (libglxmapping.c:572)
+                  n1: 32664 0x5395456: UnknownInlinedFun (libglxmapping.c:606)
+                   n1: 32664 0x5395456: glXQueryExtensionsString (libglx.c:1473)
+                    n1: 32664 0x4A10EE6: extensionSupportedGLX.lto_priv.0 (glx_context.c:213)
+                     n1: 32664 0x4A0CEB2: UnknownInlinedFun (glx_context.c:366)
+                      n1: 32664 0x4A0CEB2: _glfwCreateWindowX11 (x11_window.c:1972)
+                       n1: 32664 0x49FBD8A: glfwCreateWindow.constprop.0 (window.c:247)
+                        n1: 32664 0x494F430: UnknownInlinedFun (rcore_desktop_glfw.c:1651)
+                         n1: 32664 0x494F430: InitWindow (rcore.c:681)
+                          n1: 32664 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+                           n0: 32664 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+                n0: 3764 in 3 places, all below massif's threshold (1.00%)
+   n0: 8788 in 1 place, below massif's threshold (1.00%)
+ n1: 26244 0x518C56A: UnknownInlinedFun (imLcPrs.c:579)
+  n1: 26244 0x518C56A: parsestringfile (imLcPrs.c:739)
+   n1: 26244 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 26244 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n2: 26244 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 26244 0x4A04462: UnknownInlinedFun (x11_init.c:474)
+       n1: 26244 0x4A04462: inputMethodInstantiateCallback (x11_init.c:467)
+        n1: 26244 0x518A46E: _XimRegisterIMInstantiateCallback (imInsClbk.c:220)
+         n1: 26244 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+          n1: 26244 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+           n1: 26244 0x494FC34: UnknownInlinedFun (init.c:405)
+            n1: 26244 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+             n1: 26244 0x494FC34: InitWindow (rcore.c:681)
+              n1: 26244 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+               n0: 26244 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 26244 0x518C7A7: UnknownInlinedFun (imLcPrs.c:648)
+  n1: 26244 0x518C7A7: parsestringfile (imLcPrs.c:739)
+   n1: 26244 0x518D231: UnknownInlinedFun (imLcIm.c:610)
+    n1: 26244 0x518D231: _XimLocalOpenIM (imLcIm.c:700)
+     n2: 26244 0x51839B8: _XimOpenIM (imInt.c:229)
+      n1: 26244 0x4A04462: UnknownInlinedFun (x11_init.c:474)
+       n1: 26244 0x4A04462: inputMethodInstantiateCallback (x11_init.c:467)
+        n1: 26244 0x518A46E: _XimRegisterIMInstantiateCallback (imInsClbk.c:220)
+         n1: 26244 0x5174EF3: XRegisterIMInstantiateCallback (IMWrap.c:177)
+          n1: 26244 0x4A09D11: _glfwInitX11 (x11_init.c:1545)
+           n1: 26244 0x494FC34: UnknownInlinedFun (init.c:405)
+            n1: 26244 0x494FC34: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+             n1: 26244 0x494FC34: InitWindow (rcore.c:681)
+              n1: 26244 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+               n0: 26244 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 21176 0x52E3F05: xcb_connect_to_fd (xcb_conn.c:368)
+  n1: 21176 0x52E478D: xcb_connect_to_display_with_auth_info (xcb_util.c:568)
+   n1: 21176 0x515E49A: _XConnectXCB (xcb_disp.c:78)
+    n1: 21176 0x514E039: XOpenDisplay (OpenDis.c:129)
+     n1: 21176 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+      n1: 21176 0x494FC20: UnknownInlinedFun (platform.c:99)
+       n1: 21176 0x494FC20: UnknownInlinedFun (platform.c:62)
+        n1: 21176 0x494FC20: UnknownInlinedFun (init.c:402)
+         n1: 21176 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+          n1: 21176 0x494FC20: InitWindow (rcore.c:681)
+           n1: 21176 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+            n0: 21176 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 18816 0x514E830: XOpenDisplay (OpenDis.c:439)
+  n1: 18816 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+   n1: 18816 0x494FC20: UnknownInlinedFun (platform.c:99)
+    n1: 18816 0x494FC20: UnknownInlinedFun (platform.c:62)
+     n1: 18816 0x494FC20: UnknownInlinedFun (init.c:402)
+      n1: 18816 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+       n1: 18816 0x494FC20: InitWindow (rcore.c:681)
+        n1: 18816 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+         n0: 18816 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 16384 0x514E36E: XOpenDisplay (OpenDis.c:241)
+  n1: 16384 0x4A06FDF: _glfwConnectX11.constprop.0 (x11_init.c:1292)
+   n1: 16384 0x494FC20: UnknownInlinedFun (platform.c:99)
+    n1: 16384 0x494FC20: UnknownInlinedFun (platform.c:62)
+     n1: 16384 0x494FC20: UnknownInlinedFun (init.c:402)
+      n1: 16384 0x494FC20: UnknownInlinedFun (rcore_desktop_glfw.c:1456)
+       n1: 16384 0x494FC20: InitWindow (rcore.c:681)
+        n1: 16384 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+         n0: 16384 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+ n1: 16288 0x4030711: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+  n1: 16288 0x4030B95: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+   n1: 16288 0x4035531: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+    n1: 16288 0x40384F0: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+     n1: 16288 0x4033429: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+      n1: 16288 0x4027478: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+       n1: 16288 0x4032582: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+        n1: 16288 0x4027478: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+         n1: 16288 0x4032AE9: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+          n1: 16288 0x4F94393: ??? (in /usr/lib/libc.so.6)
+           n1: 16288 0x4027478: _dl_catch_exception (in /usr/lib/ld-linux-x86-64.so.2)
+            n1: 16288 0x40275C8: ??? (in /usr/lib/ld-linux-x86-64.so.2)
+             n1: 16288 0x4F93E62: ??? (in /usr/lib/libc.so.6)
+              n1: 16288 0x4F9444A: dlopen (in /usr/lib/libc.so.6)
+               n1: 16288 0x5393688: __glXLookupVendorByName (libglxmapping.c:428)
+                n1: 16288 0x5394544: __glXLookupVendorByScreen (libglxmapping.c:572)
+                 n1: 16288 0x5395456: UnknownInlinedFun (libglxmapping.c:606)
+                  n1: 16288 0x5395456: glXQueryExtensionsString (libglx.c:1473)
+                   n1: 16288 0x4A10EE6: extensionSupportedGLX.lto_priv.0 (glx_context.c:213)
+                    n1: 16288 0x4A0CEB2: UnknownInlinedFun (glx_context.c:366)
+                     n1: 16288 0x4A0CEB2: _glfwCreateWindowX11 (x11_window.c:1972)
+                      n1: 16288 0x49FBD8A: glfwCreateWindow.constprop.0 (window.c:247)
+                       n1: 16288 0x494F430: UnknownInlinedFun (rcore_desktop_glfw.c:1651)
+                        n1: 16288 0x494F430: InitWindow (rcore.c:681)
+                         n1: 16288 0x4017A20: PlayerView::run() (in /home/miskyr/projects/c++/my-music-player/build/view/view)
+                          n0: 16288 0x4016E49: main (in /home/miskyr/projects/c++/my-music-player/build/view/view)
